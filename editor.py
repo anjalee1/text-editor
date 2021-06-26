@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import filedialog
+
 def new_file():
     text.delete(0.0,END)  #Deletes all the contents of the text editor.
 def open_file():
